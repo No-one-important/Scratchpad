@@ -1,0 +1,27 @@
+<html>
+
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/addons/p5.sound.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8" />
+    <title>Scratchpad</title>
+    <link rel="icon" href="icon.ico">
+  </head>
+
+  <body>
+    <h1>Welcome To Scratchpad</h1>
+    <div id="editor" contenteditable="true" style="height: 100%; width: 70%; border: solid; border-width: 1px; padding: 10px; background-color: cyan; color: firebrick;">Enter Text Here</div> 
+    For the Mobile version please tap <a href="mobile.html">here</a>.
+    <script>window.addEventListener("beforeunload", function (e) {
+        let confirmationMessage = "\o/";
+
+          (e || window.event).returnValue = confirmationMessage; //Gecko + IE
+          return confirmationMessage;                            //Webkit, Safari, Chrome
+        });
+    </script>
+    <script src="test.js"></script>
+    <script src="save.js"></script>
+  </body>
+
+</html>
