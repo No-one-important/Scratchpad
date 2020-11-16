@@ -1,0 +1,23 @@
+<html>
+
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/addons/p5.sound.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8" />
+    <title>Scratchpad</title>
+    <link rel="icon" href="icon.ico">
+  </head>
+
+  <body>
+    <?php
+        $title = "Scratchpad";
+        echo "<h1>Welcome To $title</h1>";
+        echo "<div id=\"editor\" contenteditable=\"true\" style=\"height: 100%; width: 70%; border: solid; border-width: 1px; padding 15px; background-color: cyan;\"></div>";
+        echo "For the Mobile version please tap <a href=\"mobile.php\">here.</a>";
+        echo "    <script src=\"test.js\"></script>";
+        echo "    <script src=\"save.js\"></script>";
+    ?>
+  </body>
+
+</html>
