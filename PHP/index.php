@@ -59,7 +59,7 @@
         echo "<h1>Welcome To Scratchpad</h1>";
         if ($mobile == "true")
         {
-            echo "<div id=\"editor\" contenteditable=\"true\" style=\"height: 100%; width: 70%; border: 1px solid; padding: 10px; background-color: $baseColor; color: $text; font-size: $size; font-family: $font, arial;\"></div>";
+            echo "<div id=\"editor\" contenteditable=\"true\" style=\"height: 100%; width: 70%; border: 1px solid; padding: 10px; background-color: $baseColor; color: $text; font-size: $size; font-family: $font, arial; border-radius: 3px;\"></div>";
             echo "<script>let channel = $channel;</script>";
             echo "<script src=\"mobile.js\"></script>";
             echo "<script src=\"save.js\"></script>";
@@ -68,7 +68,7 @@
 
         else
         {
-            echo "<div id=\"editor\" contenteditable=\"true\" style=\"height: 100%; width: 70%; border: 1px solid; padding: 10px; background-color: $baseColor; color: $text; font-size: $size; font-family: $font, arial;\"></div>";
+            echo "<div id=\"editor\" contenteditable=\"true\" style=\"height: 100%; width: 70%; border: 1px solid; padding: 10px; background-color: $baseColor; color: $text; font-size: $size; font-family: $font, arial; border-radius: 3px;\"></div>";
             echo "<script>let channel = \"$channel\";</script>";
             echo "<script src=\"src.js\"></script>";
             echo "<script src=\"save.js\"></script>";
